@@ -1,0 +1,24 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "description": "My First Github Action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goverdhan6174/first-github-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goverdhan6174/first-github-action/issues"
+  },
+  "homepage": "https://github.com/goverdhan6174/first-github-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3"
+  }
+}

@@ -1,0 +1,13 @@
+name: "Package Version Checker"
+description: "Checks for valid Package Version"
+author: "Goverdhan Singh"
+
+inputs:
+  token:
+    description: "GitHub token"
+    required: false
+    default: ""
+
+runs:
+  using: "node12"
+  main: "./index.js"
